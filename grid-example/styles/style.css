@@ -1,0 +1,25 @@
+body{
+    background-color:darkred;
+    margin: 0 auto;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    text-align: center;
+}
+header{
+    background-color: pink;
+    grid-column: 2/-1;
+}
+p{
+    background-color:coral;
+    grid-column: 2/4;
+}
+footer{
+    background-color:darksalmon;
+    grid-column: 1/-1;
+}
+h1{
+    background-color:aquamarine
+}
