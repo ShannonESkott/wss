@@ -1,0 +1,33 @@
+h1{
+    font-size:2em;
+    
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.colored{
+    font-size: 3em;
+    color:white;
+    background-color: blue;
+    text-align: center;
+}
+section{
+    background-color:gray;
+    margin:50px;
+    border:2px black;
+    border-radius:25px;
+    color:purple;
+}
+img {
+    float: right;
+    display: block;
+    margin: 0 auto;
+    max-width: 350px;
+    padding:15px;
+    margin:50px;
+  }

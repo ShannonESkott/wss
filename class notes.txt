@@ -6,3 +6,6 @@ the audience you pick determines EVERYTHING. style, font, colors, information, f
 audience is everything.
 personification- essentially imagine the ideal client and imagine what would appeal to their interests. example: Jane Haslotsamoney, a rich lady who loves her fur-baby(dog) would be attracted to "pets welcome" signs and exotic treats for her dog, as well as employees who are personable and ask about her dog. 
 ONE audience, TWO personas.
+
+
+next ICE challenge, we'll be making this one site n stuff, guess the text sizes, the trick thing will be tht we need the title "education" to change color when you hover the mouse over it.
