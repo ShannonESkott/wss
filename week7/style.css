@@ -1,0 +1,31 @@
+div{
+    display: grid;
+    background-color: red;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+}
+div section:nth-of-type(2){
+    background-color:red;
+    /* nth of type(number) is where you specify which section to do based on how many exist, if you pass 2 it would affect the 2nd, etc*/
+}
+
+/*Different media screens are determined by max-width, it used to prioritize computers but now mobile screens are prioritized. It's best to use implicit rather than explicit grid displays
+In style sheets, you start with the largest and go down as it lowers in size. 
+If we prioritize mobiles first, we use min-width
+The first media screen determines the default size (min-width starts small, max-width starts big)*/
+@media screen and (max-width: 786px){
+    div{
+        grid-template-columns: 1fr 1fr;
+        background-color: yellow;
+    }
+    div section:nth-of-type(2){
+        background-color:yellow;}
+}
+@media screen and (max-width: 602px){
+    div{
+        grid-template-columns: 1fr;
+        background-color: lime;
+    }
+    div section:nth-of-type(2){
+        background-color:lime;}
+}

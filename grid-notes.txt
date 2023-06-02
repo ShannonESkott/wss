@@ -1,0 +1,34 @@
+in css, you first create a grid by doing this in the box you want the grid to be (ie. body, div, main)
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+this creates a 3x3 grid, both up and down. columns is horizontal, rows is vertical. the amount of boxes, however, does not exactly correlate to sorting items within it, that usually has to do with the LINES between boxes, a 3x3 grid would have 4 lines, being the very start of the page, the two lines between, and the very end of the page. this is how you can sort these items, put specifically in the tag or specification of it (ie. #main-img, img, section, p)
+    grid-column: 1;
+    grid-row: 1;
+this puts the item in the first column and row.
+    grid-column: 1/2;
+    grid-row: 1/2;
+THIS is where the lines come into play. This specifies that the item will span from the first line to the second in each, this one is basically the same as 1, but is useful for larger items. 
+    grid-column: 2/4;
+    grid-row: 1/3;
+this would mean that this item will be spanning from the second line to the last of the columns, and the first line to the third of the rows.
+
+grid alignment vocabulary!
+    justify-content
+Aligns the grid container along the inline axis (by default horizontal). This only works when the grid is narrower than the space available.
+    justify-items
+Aligns the grid item contents along the inline axis (by default horizontal). This only works when the contents of a grid cell are narrower than the grid cell.
+    align-content
+Aligns the grid container along the block axis (by default vertical). This only works when the grid is shorter than the space available.
+    align-items
+Aligns the grid item contents along the block axis (by default vertical). This only works when the contents of a grid cell are shorter than the grid cell.
+
+justify and alignment can be:
+(using justify-content as the example, but any of them can have these categories)
+    justify-content: center;
+    justify-content: start;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+as a review, JUSTIFY aligns horizontal by default, ALIGN takes care of the vertical aspect. if we want to align the grid container, we use CONTENT. if we want to align the content of the grid items within the grid cells, we use ITEMS
+you usually want to use justify before align.

@@ -1,0 +1,20 @@
+div{
+    display: grid;
+    background-color: pink;
+}
+/*Different media screens are determined by max-width, it used to prioritize computers but now mobile screens are prioritized. It's best to use implicit rather than explicit grid displays
+In style sheets, you start with the largest and go down as it lowers in size. 
+If we prioritize mobiles first, we use min-width
+The first media screen determines the default size (min-width starts small, max-width starts big)*/
+@media screen and (min-width: 582px){
+    div{
+        grid-template-columns: 1fr 1fr;
+        background-color: seagreen;
+    }
+}
+@media screen and (min-width: 803px){
+    div{
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: blue;
+    }
+}
