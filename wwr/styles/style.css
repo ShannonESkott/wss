@@ -5,7 +5,7 @@
 paragraph -   font-family: 'Merienda', 'Courier New', monospace; */
 body{
     color:#A12745;
-    background-color: white;
+    background-color: #D3DFF2;
     margin: 0;
     padding: 0;
 }
@@ -13,17 +13,17 @@ h2{
     margin: 0;
 }
 header{
-    color: #F8D6D8;
+    color: #D3DFF2;
     background-color: #7A0A26;
 }
 nav a{
-    color: white;
+    color: #D3DFF2;
     text-align: center;
     text-decoration: none;
     padding: 35px;
 }
 nav a:hover{
-    color: white;
+    color: #D3DFF2;
     background-color: #439999;
 }
 main section{
@@ -51,7 +51,7 @@ footer .social img{
     padding-top: 15px;
 }
 .book, .join{
-    background-color: white;
+    background-color: #D3DFF2;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -72,7 +72,7 @@ footer .social img{
 }
 .msg{
     color:#439999;
-    background-color: white;
+    background-color: #D3DFF2;
     font-family: 'Merienda', 'Courier New', monospace;
     line-height: 1.5em;
     padding: 35px;
