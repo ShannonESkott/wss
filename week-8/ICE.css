@@ -1,0 +1,42 @@
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+img{
+    width: 100%;
+    grid-column: 1/2;
+}
+.texts{
+    display: block;
+    grid-column: 2/3;
+    margin: 10px;
+}
+h1{
+    width: 100%;
+}
+h3{
+    width: 100%;
+}
+.email{
+    width: 100%;
+    margin-top: 10px;
+}
+.name{
+    width: 100%;
+    margin-top: 10px;
+}
+.checkbox{
+    margin-top: 10px;
+    width: 100%;
+}
+p{
+    margin-top: -19px;
+    margin-left: 20px;
+}
+.submit{
+    width: 100%;
+    color: white;
+    background-color:orange;
+}
