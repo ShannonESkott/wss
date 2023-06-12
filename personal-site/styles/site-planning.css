@@ -15,15 +15,15 @@ Fonts are separated by a & */
   --paragraph-font: 'Merienda', Lato, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #A12745;  /* headlines on a white background */ 
-  --headline-color-on-color: #D3DFF2; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #7A0A26; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #003D3B; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #439999  ;
-  --nav-link-color: #7A0A26;
-  --nav-background-color: #A12745;
-  --nav-hover-link-color: #D3DFF2;
-  --nav-hover-background-color: #7A0A26;
+  --headline-color-on-white: #ADC178;  /* headlines on a white background */ 
+  --headline-color-on-color: #6C584C; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #A98467; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #A98467; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #DDE5B6  ;
+  --nav-link-color: #A98467;
+  --nav-background-color: #DDE5B6;
+  --nav-hover-link-color: #ADC178;
+  --nav-hover-background-color: #6C584C;
 }
 
 
@@ -135,17 +135,17 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: #ccc;
+  background-color: #F0EAD2;
   line-height: 3em;
 }
 .sm-page2 {
   grid-area: page2;
-  background-color: #ccc;
+  background-color: #F0EAD2;
   line-height: 3em;
 }
 .sm-page3 {
   grid-area: page3;
-  background-color: #ccc;
+  background-color: #F0EAD2;
   line-height: 3em;
 }
 .top {
