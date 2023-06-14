@@ -1,0 +1,142 @@
+body{
+    margin:auto;
+    background-color: #1e1e1e;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+img{
+    width:100%;
+
+}
+.title{
+    margin-top: -15px;
+}
+main{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    max-width: 600px;
+    max-height: 1000px;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+    align-content: center;
+    margin: 15px;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+img{
+    grid-column: 1/4;
+}
+h5{
+    font-family: 'Times New Roman', Times, serif; 
+    grid-column: 1/4;
+    color: #496491;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    grid-column: 1/4;
+    font-size: 180%;
+    margin: 0;
+}
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    grid-column: 1/4;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.1em;
+    line-height: 130%;
+    text-align: center;
+    color: #8b808b;
+}
+
+.min{
+    grid-column: 2/3;
+    margin-bottom: 0;
+    font-size: 1.3em;
+}
+.read{
+    grid-column: 2/3;
+    margin-top: 0;
+    font-size: 0.7em;
+    margin-bottom: 25px;
+}
+.readers{
+    grid-column: 1/2;
+    justify-self: center;
+    border: 5px;
+    border-color: white;
+    width: 100%;
+    background-color: #3f5b8b;
+    color: white;
+
+}
+.number{
+    grid-column: 2/3;
+    margin-bottom: 0;
+    font-size: 1.3em;
+}
+.views{
+    grid-column: 2/3;
+    color: white;
+    margin-top: 0;
+    font-size: 0.7em;
+    margin-bottom: 25px;
+}
+.viewers{
+ grid-column: 2/3;
+ justify-self: center;
+ width: 100%;
+ background-color: #3f5b8b;
+ border-left: solid 0.5px;
+ border-color: #8b808b;
+ color: white;
+ justify-content: center;
+ align-content: center;
+ 
+}
+.commentators{
+    display: block;
+    width: 100%;
+    grid-column: 3/4;
+    justify-self: center;
+    justify-content: center;
+    background-color:#3f5b8b ;
+    border-left: solid 0.5px;
+    border-color: #8b808b;
+    color: white;
+
+}
+.fifteen{
+    grid-column: 2/3;
+    margin-bottom: 0;
+    font-size: 1.3em;
+}
+.comments{
+    grid-column: 2/3;
+    margin-top: 0;
+    font-size: 0.7em;
+    margin-bottom: 25px;
+}
+
+.blue{
+    background-color: #3f5b8b;
+    grid-column:1/4;
+    width:100%
+}
+
+/*
+
+3 weeks ago text: #496491
+paragraph text: #8b808b
+Blue on the bottom: #3f5b8b
+lines between blue boxes: #808080
+background (black looking color): #1e1e1e
+
+
+Everything else is either black or white
+
+*/
