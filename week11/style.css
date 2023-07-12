@@ -42,6 +42,8 @@ main p{
     padding-right: 60px;
     font-size: 0.9em;
     margin-bottom: 0px;
+    font-family: 'Times New Roman', Times, serif
+
 }
 .mypic{
     grid-column: 1/2;
@@ -50,16 +52,46 @@ main p{
     margin-top: -425px;
 }
 .bottomgrid{
+    grid-column: 2/3;
     display: grid;
+    grid-template-columns: 1fr 1fr;
     padding-bottom: 46px;
 }
-
+.box1{
+    background-color: lightgray;
+    width: 5px;
+    height: 5px;
+}
+.box2{
+    background-color: gray;
+    width: 5px;
+    height: 5px;
+}
+.box3{
+    background-color: black;
+    width: 5px;
+    height: 5px;
+}
 
 .box-holder{
+    grid-column: 1/2;
     display: grid;
     grid-auto-flow: column;
     gap: 3px;
     width: 60px;
+}
+.quote-holder{
+    margin: 0;
+    grid-column: 2/3;
+    grid-auto-flow: column;
+}
+
+.quote-holder p{
+    font-size: 3em;
+    font-family:'Brush Script MT', cursive;
+}
+.quote-holder p:nth-of-type(2){
+    font-size: 3.5em;
 }
 
 @media screen and(max-width: 850px){

@@ -1,0 +1,76 @@
+/*importing fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Special+Elite&family=Zeyada&display=swap');
+
+/*setting the default body condition for each page, plus the header and footer*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F0EAD2;
+}
+header{
+    display:grid;
+    grid-template-columns: 150px auto;
+    background-color: #DDE5B6;
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DDE5B6;
+}
+.content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.home-page{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr)
+}
+
+/*TEMPORARY DEFAULTS*/
+img{
+    max-width: 750px;
+}
+h1, h2{
+    font-family: 'Special Elite', cursive;
+}
+p{
+    font-family: 'Chakra Petch', sans-serif;
+}
+/*TEMPORARY DEFAULT ENDS*/
+
+.hook-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #6C584C;
+}
+.hook-box img{
+    grid-column: 1/2;
+}
+.hook-box h1, h2, p{
+    grid-column: 2/3;
+}
+.pitch-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #A98467;
+}
+.pitch-box img{
+    grid-column: 1/2;
+}
+.pitch-box h2, p{
+    grid-column: 2/3;
+}
+.ramble-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ADC178;
+}
+.ramble-box img{
+    grid-column: 1/2;
+}
+.ramble-box h2, p{
+    grid-column: 2/3;
+}
