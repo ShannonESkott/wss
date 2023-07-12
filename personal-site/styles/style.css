@@ -12,9 +12,13 @@ header{
     grid-template-columns: 150px auto;
     background-color: #DDE5B6;
 }
+.logo{
+    width: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 footer{
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -31,7 +35,7 @@ footer{
 
 /*TEMPORARY DEFAULTS*/
 img{
-    max-width: 750px;
+    max-width: 275px;
 }
 h1, h2{
     font-family: 'Special Elite', cursive;
@@ -44,33 +48,81 @@ p{
 .hook-box{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-height: 750px;
     background-color: #6C584C;
 }
 .hook-box img{
+    max-width: 600px;
+    margin: 15px;
+    border: 2px solid #ADC178;
     grid-column: 1/2;
+    grid-row: 1/3;
 }
-.hook-box h1, h2, p{
+.hook-text{
     grid-column: 2/3;
+    grid-row: 1/3;
 }
 .pitch-box{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-height: 750px;
     background-color: #A98467;
 }
 .pitch-box img{
     grid-column: 1/2;
+    grid-row: 1/3;
 }
-.pitch-box h2, p{
+.pitch-text{
     grid-column: 2/3;
+    grid-row: 1/3;
 }
 .ramble-box{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-height: 750px;
     background-color: #ADC178;
 }
 .ramble-box img{
     grid-column: 1/2;
+    grid-row: 1/3;
 }
-.ramble-box h2, p{
+.ramble-text{
     grid-column: 2/3;
+    grid-row: 1/3;
+}
+/*images relevant to the home page*/
+.pic1{
+    max-width: 300px;
+    width: 300px;
+}
+.pic2{
+    max-width: 350px;
+    width: 350px;
+}
+.pic3{
+    max-width: 285px;
+    width: 285px;
+}
+.pic4{
+    width: 250px;
+}
+.pic5{
+    max-width: 300px;
+    width: 300px;
+}
+.pic6{
+    max-width: 280px;
+    width: 280px;
+}
+.pic7{
+    max-width: 270px;
+    width: 270px;
+}
+.pic8{
+    z-index: 1;
+    max-width: 280px;
+    width: 280px;
 }
