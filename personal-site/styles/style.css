@@ -181,3 +181,28 @@ p{
     margin-left: -315px;
 }
 /*home-page image section over*/
+
+/*snapple page start!*/
+.snap-page{
+    display: grid;
+}
+.snap-profile-box{
+}
+.snap-profile-box h2{
+
+}
+.snap-profile{
+
+}
+.snap-pic2{
+
+}
+.snap-backstory1{
+
+}
+.snap-flavortext{
+    
+}
+.snap-gallery{
+    display: inline;
+}
