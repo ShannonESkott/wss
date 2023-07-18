@@ -53,7 +53,7 @@ img{
     max-width: 600px;
     margin: 0;
 }
-h1, h2{
+h1, h2, h3{
     font-family: 'Special Elite', cursive;
 }
 p{
@@ -188,56 +188,169 @@ p{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 600px 600px 600px 600px;
     max-width: 1600px;
-}
-.snap-page img{
-    max-width: 300px;
+    background-color:#6C584C;
 }
 .snap-profile-box{
     grid-column: 3/5;
     grid-row: 1/2;
     display: grid;
+    margin-left: -200px;
+    margin-top: 25px;
     grid-template-columns: 1fr 1fr;
+    justify-self: center;
+    font-size: 110%;
 }
 .snap-profile-box h2{
     grid-column: 1/3; 
+    margin-top: 20px;
+    color: #DDE5B6;
 }
 .snap-profile-box h3{
     grid-column: 1/2;
+    margin: 0px;
+    color: #ADC178;
+    text-align: center;
 }
 .snap-profile{
     grid-column: 1/3;
     grid-row: 1/2;
+    max-width: 425px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border: 15px solid white;
+    border-bottom: 45px solid white;
+    padding: 3px;
+    background-color: #A98467;
+    text-shadow: 0px 0px 2px #ADC178;
+}
+.snap-pfp-desc{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-top: 545px;
+    margin-left: 150px;
+    font-size: 110%;
+    color: #6C584C;
+    text-shadow: 0px 0px 1px black;
 }
 .snap-pic2{
     grid-column: 4/5;
     grid-row: 1/2;
+    max-width: 300px;
+    margin-top: 90px;
+    margin-left: 125px;
+    border: 8px solid white;
+    border-bottom: 30px solid white;
+    background-color: #A98467;
+    padding: 2px;
+    box-shadow: 0px 0px 2px black
+}
+.snap-color-desc{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    margin-top: 555px;
+    margin-left: 195px;
+    font-size: 110%;
+    color: #6C584C;
+    text-shadow: 0px 0px 1px black;
 }
 .flavorpic1{
     grid-column: 1/2;
     grid-row: 2/3;
+    max-width: 375px;
+    border: 2px solid #A98467;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 2px #ADC178;
 }
 .flavorpic2{
     grid-column: 1/2;
     grid-row: 2/3;
+    max-width: 300px;
+    border: 2px solid #A98467;
+    margin-top: 300px;
+    margin-left: 175px;
+    box-shadow: 0px 0px 2px #ADC178;
+}
+.snap-backstory-bg{
+    background-color: #DDE5B6;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    box-shadow: 0px 0px 4px #DDE5B6;
 }
 .snap-backstory{
     grid-column: 2/5;
     grid-row: 2/3;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    font-size: 115%;
+    color: #6C584C;
+    text-shadow: 0px 0px 1px black;
+    /*background-color: #DDE5B6;
+    color: #6C584C;*/
+}
+.snap-flavor-bg{
+    background-color: #ADC178;
+    grid-column: 1/5;
+    grid-row: 3/4;
+    box-shadow: 0px 0px 4px #ADC178;
 }
 .snap-flavortext{
-    grid-column: 3/5;
+    grid-column: 1/3;
     grid-row: 3/4;
+    text-align: center;
+    margin: 10px;
+    margin-left: 60px;
+    font-size: 150%;
+    align-self: center;
+    color: #F0EAD2;
+    text-shadow: 0px 0px 1px green;
 }
-.snap-flavortext img{
+.snap-ogdesign{
     grid-column: 4/5;
+    grid-row: 3/4;
+    max-width: 500px;
+    border: 10px solid white;
+    border-bottom: 40px solid white;
+    margin-top: 22px;
+    margin-right: 20px;
+    padding: 3px;
+    background-color:#A98467;
+    box-shadow: 0px 0px 2px black;
+}
+.snap-concept{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    font-size: 110%;
+    margin-top: 548px;
+    margin-left: 175px;
+    color:#6C584C;
 }
 .snap-gallery{
     grid-column: 1/5;
     grid-row: 4/5;
-    display: inline;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: #A98467;
+    box-shadow: 0px 0px 4px #A98467;
+}
+.snap-gallery p{
+    margin-top: -150px;
+    font-size: 105%;
+    color: #6C584C;
+    text-shadow: 0px 0px 1px black;
 }
 .snap-gallery img{
+    margin: 5px;
+    margin-top: 55px;
+    max-width: 300px;
+    border: 5px solid white;
+    border-bottom: 25px solid white;
+    background-color: #A98467;
+    padding: 2px;
+    box-shadow: 0px 0px 2px black;
 }
 /*snapple page end!*/
 
