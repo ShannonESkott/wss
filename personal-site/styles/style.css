@@ -197,12 +197,37 @@ p{
 .snap-pic2{
 
 }
-.snap-backstory1{
+.snap-backstory{
 
 }
 .snap-flavortext{
     
 }
 .snap-gallery{
+    display: inline;
+}
+
+/*snapple page start!*/
+.zanir-page{
+    display: grid;
+}
+.zanir-profile-box{
+}
+.zanir-profile-box h2{
+
+}
+.zanir-profile{
+
+}
+.zanir-pic2{
+
+}
+.zanir-backstory{
+
+}
+.zanir-flavortext{
+    
+}
+.zanir-gallery{
     display: inline;
 }
